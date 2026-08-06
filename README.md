@@ -111,7 +111,6 @@ Rule-Based SDK Migration Engine/
 │   └── README.md
 │
 ├── .gitignore
-├── LICENSE
 ├── migration_report.json
 ├── README.md
 ├── requirements.txt
