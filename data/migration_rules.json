@@ -1,0 +1,82 @@
+[
+    {
+        "id": "SQ001",
+        "operator": "RenameParameter",
+        "match": {
+            "parameter": "access_token"
+        },
+        "patch": {
+            "parameter": "token"
+        },
+        "confidence": 1.0,
+        "source": "Official Square Python SDK Migration Guide"
+    },
+    {
+        "id": "SQ002",
+        "operator": "RenameParameter",
+        "match": {
+            "parameter": "custom_url"
+        },
+        "patch": {
+            "parameter": "base_url"
+        },
+        "confidence": 1.0,
+        "source": "Official Square Python SDK Migration Guide"
+    },
+    {
+        "id": "SQ003",
+        "operator": "RenameParameter",
+        "match": {
+            "parameter": "square_version"
+        },
+        "patch": {
+            "parameter": "version"
+        },
+        "confidence": 1.0,
+        "source": "Official Square Python SDK Migration Guide"
+    },
+    {
+        "id": "SQ004",
+        "operator": "RenameClass",
+        "match": {
+            "class": "LegacySquare"
+        },
+        "patch": {
+            "class": "Square"
+        },
+        "confidence": 0.98,
+        "source": "Official Square Python SDK Migration Guide"
+    },
+    {
+        "id": "SQ005",
+        "operator": "ReplaceValue",
+        "match": {
+            "value": "\"sandbox\""
+        },
+        "patch": {
+            "value": "SquareEnvironment.SANDBOX"
+        },
+        "confidence": 0.95,
+        "source": "Official Square Python SDK Migration Guide"
+    },
+    {
+        "id": "SQ006",
+        "operator": "DeleteParameter",
+        "match": {
+            "parameter": "http_call_back"
+        },
+        "patch": {},
+        "confidence": 0.95,
+        "source": "Official Square Python SDK Migration Guide"
+    },
+    {
+        "id": "SQ007",
+        "operator": "DeleteParameter",
+        "match": {
+            "parameter": "user_agent_detail"
+        },
+        "patch": {},
+        "confidence": 0.95,
+        "source": "Official Square Python SDK Migration Guide"
+    }
+]

@@ -1,0 +1,73 @@
+{
+    "summary": {
+        "provider": "Square Python SDK",
+        "migration_class": "Method Signature Evolution",
+        "input_file": "samples/old_client.py",
+        "output_file": "samples/patched_client.py",
+        "total_rules_applied": 8,
+        "operator_statistics": {
+            "RenameClass": 2,
+            "RenameParameter": 3,
+            "ReplaceValue": 1,
+            "DeleteParameter": 2
+        }
+    },
+    "applied_rules": [
+        {
+            "rule_id": "SQ004",
+            "rule": "RenameClass",
+            "confidence": 0.98,
+            "line": 1,
+            "col": 26
+        },
+        {
+            "rule_id": "SQ004",
+            "rule": "RenameClass",
+            "confidence": 0.98,
+            "line": 3,
+            "col": 9
+        },
+        {
+            "rule_id": "SQ001",
+            "rule": "RenameParameter",
+            "confidence": 1.0,
+            "line": 3,
+            "col": 9
+        },
+        {
+            "rule_id": "SQ002",
+            "rule": "RenameParameter",
+            "confidence": 1.0,
+            "line": 3,
+            "col": 9
+        },
+        {
+            "rule_id": "SQ003",
+            "rule": "RenameParameter",
+            "confidence": 1.0,
+            "line": 3,
+            "col": 9
+        },
+        {
+            "rule_id": "SQ005",
+            "rule": "ReplaceValue",
+            "confidence": 0.95,
+            "line": 3,
+            "col": 9
+        },
+        {
+            "rule_id": "SQ006",
+            "rule": "DeleteParameter",
+            "confidence": 0.95,
+            "line": 3,
+            "col": 9
+        },
+        {
+            "rule_id": "SQ007",
+            "rule": "DeleteParameter",
+            "confidence": 0.95,
+            "line": 3,
+            "col": 9
+        }
+    ]
+}
